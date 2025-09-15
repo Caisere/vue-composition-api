@@ -1,3 +1,10 @@
+<script>
+    export default {
+        name: 'AboutComponent',
+    }
+</script>
+
+
 <template>
     <div class="home">
         <h1>Welcome to the About Page</h1>
@@ -6,9 +13,3 @@
     </div>
 </template>
 
-
-<script>
-    export default {
-        name: 'AboutComponent',
-    }
-</script>

@@ -61,7 +61,7 @@
 body {
   /* min-height: 100vh; */
   color: #474646;
-  background: rgba(235, 235, 235, 0.84);
+  background: rgba(235, 235, 235, 00.84);
   /* background: var(--color-background); */
   transition:
     color 0.5s,

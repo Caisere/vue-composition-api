@@ -1,3 +1,10 @@
+<script>
+    export default {
+        name: 'HeaderComponent'
+    }
+</script>
+
+
 <template>
     <header>
         <router-link to="/">
@@ -7,9 +14,3 @@
         <router-link to="/products">Products</router-link>
     </header>
 </template>
-
-<script>
-    export default {
-        name: 'HeaderComponent'
-    }
-</script>
