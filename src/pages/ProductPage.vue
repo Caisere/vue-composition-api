@@ -1,5 +1,5 @@
 <script setup>
-    import { ref } from 'vue'
+    import { onMounted, ref } from 'vue'
     import axios from 'axios'
 
     const listOfProduct = ref(0)   // return an object of data
@@ -7,6 +7,7 @@
     console.log(listOfProduct)
 
     function increaseProduct() {
+        // to increment the value of listOfProduct we have to use the value from the returned object
         return listOfProduct.value++
     }
 
@@ -19,7 +20,9 @@
     }
 
     // Call getProducts when component mounts
-    getProducts()
+    onMounted(
+        getProducts()
+    )
 </script>
 
 
