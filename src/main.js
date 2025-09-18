@@ -3,8 +3,8 @@ import './assets/main.css'
 import { createApp } from 'vue'
 import App from './App.vue'
 import {createRouter, createWebHistory} from 'vue-router'
-import Home from './pages/Home.vue'
-import About from './pages/About.vue'
+import Home from './pages/HomePage.vue'
+import About from './pages/AboutPage.vue'
 import Products from './pages/ProductPage.vue'
 
 

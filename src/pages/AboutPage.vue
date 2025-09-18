@@ -1,7 +1,5 @@
-<script>
-    export default {
-        name: 'AboutComponent',
-    }
+<script setup>
+
 </script>
 
 
